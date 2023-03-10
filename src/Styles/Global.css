@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --primary-clr: #e45419;
+  --secondary-clr: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "Cabinet Grotesk", sans-serif;
+  background-color: var(--primary-clr);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Classes */
+
+/* Color */
+.primary-clr {
+  color: var(--primary-clr);
+}
+.secondary-clr {
+  color: var(--secondary-clr);
+}
+
+/* Background */
+
+.bg-primary-clr {
+  background-color: var(--primary-clr);
+}
+.bg-secondary-clr {
+  background-color: var(--secondary-clr);
+}
+
+/* Font */
+
+.f-1 {
+  font-size: 3.2rem;
+}
+.f-2 {
+  font-size: 3rem;
+}
+.f-2xl {
+  font-size: calc(6rem);
+}
+
+/* hr */
+
+.hr {
+  border: none;
+  background-color: var(--secondary-clr);
+  height: 2px;
+}
+
+/* Wrapper */
+
+.Wrapper {
+  width: 95%;
+  margin-inline: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.container-left {
+  margin-left: 20%;
+}
+.container-top {
+  margin-top: 200px;
+}
